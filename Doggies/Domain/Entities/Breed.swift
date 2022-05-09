@@ -1,0 +1,1 @@
+typealias Breeds = [String: [String]]
