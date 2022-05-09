@@ -35,14 +35,14 @@ No template was used on this project.
 - Sort breeds list alphabetically
 - Separate the different layers in modules. [Modular Architecture] (https://medium.com/@leandromperez/a-modular-architecture-in-swift-aafd9026aa99)
 - Add refresh button on the breed random images.
-- Make breed image bigger when tapping it.
+- Make breed image bigger when tapping it (as a pop up).
 
 ### Must
 - Add tests
 - Create DTO objects and map them toDomain().
 - Create DIContainers to handle better dependency injection.
 
-## Recommendations 
+# Recommendations
 - Run the app on iOS 14 or above to see the breeds list with Swift UI. Run it under iOS 14 and see a better design with UIKit.
 - Feel free to change the code so to see the different breeds list designs.
 
