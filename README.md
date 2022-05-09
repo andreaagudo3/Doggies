@@ -32,7 +32,6 @@ No template was used on this project.
 ### Improvements
 - Cache breeds list
 - Add search on the breeds list scene
-- Sort breeds list alphabetically
 - Separate the different layers in modules. [Modular Architecture] (https://medium.com/@leandromperez/a-modular-architecture-in-swift-aafd9026aa99)
 - Add refresh button on the breed random images.
 - Make breed image bigger when tapping it (as a pop up).

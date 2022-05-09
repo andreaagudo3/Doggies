@@ -14,7 +14,6 @@ final class BreedsListVC: UIViewController {
         
         // viewModel
         bind(to: viewModel)
-        viewModel.viewDidLoad()
     }
     
     private func bind(to viewModel: BreedsListViewModel) {

@@ -3,7 +3,6 @@ import Foundation
 // MARK: View model comunication
 protocol BreedsListViewModel {
     // Input
-    func viewDidLoad()
     func didSelect(item: BreedsListItemViewModel)
     
     // Output

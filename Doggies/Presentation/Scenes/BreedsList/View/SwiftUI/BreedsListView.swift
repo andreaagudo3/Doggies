@@ -18,9 +18,6 @@ struct BreedsListView: View {
                 }
             }
             .listStyle(PlainListStyle())
-            .onAppear {
-                self.viewModelWrapper.viewModel?.viewDidLoad()
-            }
         }
         
         .navigationBarTitle(Text(self.viewModelWrapper.viewModel?.title ?? ""), displayMode: .large)

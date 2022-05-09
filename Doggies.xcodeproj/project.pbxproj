@@ -43,8 +43,6 @@
 		19AE20C12823E94100B69DC1 /* BreedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20572823E94000B69DC1 /* BreedCell.swift */; };
 		19AE20C22823E94100B69DC1 /* BreedsListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20582823E94000B69DC1 /* BreedsListContract.swift */; };
 		19AE20C32823E94100B69DC1 /* BreedsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20592823E94000B69DC1 /* BreedsListViewModel.swift */; };
-		19AE20C42823E94100B69DC1 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE205D2823E94000B69DC1 /* SectionHeaderView.swift */; };
-		19AE20C52823E94100B69DC1 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19AE205E2823E94000B69DC1 /* SectionHeaderView.xib */; };
 		19AE20CE2823E94100B69DC1 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20702823E94000B69DC1 /* AppConfiguration.swift */; };
 		19AE20D02823E94100B69DC1 /* BreedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20742823E94000B69DC1 /* BreedRequest.swift */; };
 		19AE20D32823E94100B69DC1 /* DefaultBreedsListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20782823E94000B69DC1 /* DefaultBreedsListRepository.swift */; };
@@ -139,8 +137,6 @@
 		19AE20572823E94000B69DC1 /* BreedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedCell.swift; sourceTree = "<group>"; };
 		19AE20582823E94000B69DC1 /* BreedsListContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedsListContract.swift; sourceTree = "<group>"; };
 		19AE20592823E94000B69DC1 /* BreedsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedsListViewModel.swift; sourceTree = "<group>"; };
-		19AE205D2823E94000B69DC1 /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
-		19AE205E2823E94000B69DC1 /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
 		19AE20702823E94000B69DC1 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		19AE20742823E94000B69DC1 /* BreedRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedRequest.swift; sourceTree = "<group>"; };
 		19AE20782823E94000B69DC1 /* DefaultBreedsListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultBreedsListRepository.swift; sourceTree = "<group>"; };
@@ -439,26 +435,8 @@
 		19AE205A2823E94000B69DC1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				19AE205B2823E94000B69DC1 /* TableView */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		19AE205B2823E94000B69DC1 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				19AE205C2823E94000B69DC1 /* SectionHeaderView */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		19AE205C2823E94000B69DC1 /* SectionHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				19AE205D2823E94000B69DC1 /* SectionHeaderView.swift */,
-				19AE205E2823E94000B69DC1 /* SectionHeaderView.xib */,
-			);
-			path = SectionHeaderView;
 			sourceTree = "<group>";
 		};
 		19AE206F2823E94000B69DC1 /* Data */ = {
@@ -780,7 +758,6 @@
 				19AE20E72823E94100B69DC1 /* DMSans-Medium.ttf in Resources */,
 				19AE20C02823E94100B69DC1 /* BreedCell.xib in Resources */,
 				19AE20EA2823E94100B69DC1 /* DMSans-MediumItalic.ttf in Resources */,
-				19AE20C52823E94100B69DC1 /* SectionHeaderView.xib in Resources */,
 				1979935B2826FFE5003BE96C /* README.md in Resources */,
 				19AE20EF2823E94100B69DC1 /* Assets.xcassets in Resources */,
 				19AE20E62823E94100B69DC1 /* DMSans-Regular.ttf in Resources */,
@@ -845,7 +822,6 @@
 				19AE20FB2823E94100B69DC1 /* Application.swift in Sources */,
 				19AE20C22823E94100B69DC1 /* BreedsListContract.swift in Sources */,
 				19AE20DC2823E94100B69DC1 /* BreedsListRepository.swift in Sources */,
-				19AE20C42823E94100B69DC1 /* SectionHeaderView.swift in Sources */,
 				19AE20D52823E94100B69DC1 /* Reusable.swift in Sources */,
 				193C079B28240E09002F621C /* String+Ext.swift in Sources */,
 				193C07A9282421F9002F621C /* BreedDetailConfigurator.swift in Sources */,

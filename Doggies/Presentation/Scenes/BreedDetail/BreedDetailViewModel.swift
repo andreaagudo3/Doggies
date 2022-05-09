@@ -12,7 +12,7 @@ final class DefaultBreedDetailViewModel: BreedDetailViewModel {
         breedName.capitalizedFirst()
     }
     
-    // TODO: Move to constants
+    // TODO: Move values to constants
     var columnLayout = ColumnFlowLayout(
         cellsPerRow: 3,
         cellHeight: 116,
