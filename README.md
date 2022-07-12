@@ -33,6 +33,7 @@ No template was used on this project.
 - Cache breeds list
 - Add search on the breeds list scene
 - Separate the different layers in modules. [Modular Architecture] (https://medium.com/@leandromperez/a-modular-architecture-in-swift-aafd9026aa99)
+	- ✅ Already created the **Networking module**
 - Add refresh button on the breed random images.
 - Make breed image bigger when tapping it (as a pop up).
 
