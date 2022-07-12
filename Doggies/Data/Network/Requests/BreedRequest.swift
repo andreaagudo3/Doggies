@@ -1,4 +1,5 @@
 import Foundation
+import Networking
 
 enum BreedRequest: RequestProtocol {
     case getBreeds
