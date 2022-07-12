@@ -24,9 +24,6 @@
 		1979935628266CBA003BE96C /* LoadScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979935428266CBA003BE96C /* LoadScene.swift */; };
 		1979935728266CBA003BE96C /* AlertScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979935528266CBA003BE96C /* AlertScene.swift */; };
 		1979935928266EAC003BE96C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979935828266EAC003BE96C /* UIApplication+Extension.swift */; };
-		1979935B2826FFE5003BE96C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1979935A2826FFE5003BE96C /* README.md */; };
-		1979935E2827DD69003BE96C /* CLEAN+MVVM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1979935D2827DD69003BE96C /* CLEAN+MVVM.png */; };
-		197993602827DD75003BE96C /* Dependency.png in Resources */ = {isa = PBXBuildFile; fileRef = 1979935F2827DD75003BE96C /* Dependency.png */; };
 		197993662827F6FC003BE96C /* BreedsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197993652827F6FC003BE96C /* BreedsListView.swift */; };
 		1979936A2827F885003BE96C /* BreedsListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197993692827F885003BE96C /* BreedsListItemViewModel.swift */; };
 		1979936F28291544003BE96C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979936E28291544003BE96C /* Observable.swift */; };
@@ -108,9 +105,6 @@
 		1979935428266CBA003BE96C /* LoadScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadScene.swift; sourceTree = "<group>"; };
 		1979935528266CBA003BE96C /* AlertScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertScene.swift; sourceTree = "<group>"; };
 		1979935828266EAC003BE96C /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
-		1979935A2826FFE5003BE96C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1979935D2827DD69003BE96C /* CLEAN+MVVM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CLEAN+MVVM.png"; sourceTree = "<group>"; };
-		1979935F2827DD75003BE96C /* Dependency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dependency.png; sourceTree = "<group>"; };
 		197993652827F6FC003BE96C /* BreedsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListView.swift; sourceTree = "<group>"; };
 		197993692827F885003BE96C /* BreedsListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListItemViewModel.swift; sourceTree = "<group>"; };
 		1979936E28291544003BE96C /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
@@ -245,15 +239,6 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		1979935C282701BA003BE96C /* README_FILES */ = {
-			isa = PBXGroup;
-			children = (
-				1979935F2827DD75003BE96C /* Dependency.png */,
-				1979935D2827DD69003BE96C /* CLEAN+MVVM.png */,
-			);
-			path = README_FILES;
-			sourceTree = "<group>";
-		};
 		197993632827F6D8003BE96C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,11 +286,9 @@
 		19AE1F452823C53F00B69DC1 = {
 			isa = PBXGroup;
 			children = (
-				1979935A2826FFE5003BE96C /* README.md */,
 				19AE1F502823C53F00B69DC1 /* Doggies */,
 				19AE1F672823C54000B69DC1 /* DoggiesTests */,
 				19AE1F712823C54000B69DC1 /* DoggiesUITests */,
-				1979935C282701BA003BE96C /* README_FILES */,
 				19AE1F4F2823C53F00B69DC1 /* Products */,
 				190D2893287D7C1D0035A1A4 /* Frameworks */,
 			);
@@ -686,13 +669,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1979935E2827DD69003BE96C /* CLEAN+MVVM.png in Resources */,
 				19AE20E32823E94100B69DC1 /* Colors.xcassets in Resources */,
 				19AE20ED2823E94100B69DC1 /* Localizable.strings in Resources */,
 				19AE20E72823E94100B69DC1 /* DMSans-Medium.ttf in Resources */,
 				19AE20C02823E94100B69DC1 /* BreedCell.xib in Resources */,
 				19AE20EA2823E94100B69DC1 /* DMSans-MediumItalic.ttf in Resources */,
-				1979935B2826FFE5003BE96C /* README.md in Resources */,
 				19AE20EF2823E94100B69DC1 /* Assets.xcassets in Resources */,
 				19AE20E62823E94100B69DC1 /* DMSans-Regular.ttf in Resources */,
 				193C07B228251776002F621C /* BreedDetailVC.storyboard in Resources */,
@@ -701,7 +682,6 @@
 				19AE20BE2823E94100B69DC1 /* BreedsListVC.storyboard in Resources */,
 				19AE20F02823E94100B69DC1 /* LaunchScreen.storyboard in Resources */,
 				19AE20E82823E94100B69DC1 /* DMSans-Bold.ttf in Resources */,
-				197993602827DD75003BE96C /* Dependency.png in Resources */,
 				193C07BD28255E1D002F621C /* BreedImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
