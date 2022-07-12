@@ -1,7 +1,6 @@
 import UIKit
 
 class BreedDetailConfigurator {
-    // TODO: Create DI Container
     
     static func create(breedName: String,
                        delegate: BreedDetailSceneDelegate?) -> BreedDetailVC {

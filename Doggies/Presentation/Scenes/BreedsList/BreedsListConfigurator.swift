@@ -3,8 +3,8 @@ import UIKit
 import SwiftUI
 
 class BreedsListConfigurator {
-    // TODO: Create DI Container
-    static func create(delegate: BreedsListSceneDelegate?) -> UIViewController {
+
+	static func create(delegate: BreedsListSceneDelegate?) -> UIViewController {
         
         // MARK: ViewModel
         func makeBreedsListViewModel() -> BreedsListViewModel {
