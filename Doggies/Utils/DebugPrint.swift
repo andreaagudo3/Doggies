@@ -3,15 +3,15 @@ import Foundation
 struct DebugPrint {
 
     enum IconType { 
-        static let error = "📕[ERROR] "
-        static let ok = "📗[OK] "
-        static let warning = "⚠️[WARNING] "
-        static let action = "📘[ACTION] "
-        static let canceled = "📓[CANCELED] "
-        static let other = "📔[OTHER] "
-        static let notification = "🔴[PUSH] "
-        static let info = "📣[INFO] "
-        static let tada = "🎉[TADA] "
+        static let error = "📕 [ERROR] "
+        static let ok = "📗 [OK] "
+        static let warning = "⚠️ [WARNING] "
+        static let action = "📘 [ACTION] "
+        static let canceled = "📓 [CANCELED] "
+        static let other = "📔 [OTHER] "
+        static let notification = "🔴 [PUSH] "
+        static let info = "📣 [INFO] "
+        static let tada = "🎉 [TADA] "
     }
 
     static func error(_ error: String = "") {
@@ -52,7 +52,7 @@ struct DebugPrint {
 
     fileprivate static func logInfo(_ message: String) {
         #if !RELEASE
-        print("DEBUGPRINT " + message)
+        print("[DEBUGLOG] " + message)
         #endif
     }
 }

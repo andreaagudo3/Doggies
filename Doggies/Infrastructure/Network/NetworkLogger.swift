@@ -44,6 +44,6 @@ extension Data {
 
 func printIfDebug(_ string: String) {
     #if DEBUG
-        print(string)
+        print("[NETWORKLOG] \(string)")
     #endif
 }

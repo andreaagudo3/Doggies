@@ -4,9 +4,8 @@ enum BreedRequest: RequestProtocol {
     case getBreeds
     case getRandomImages(breed: String, count: Int)
     
-    // TODO: Move to info plist
-    var host: String {
-        "dog.ceo"
+	var host: String {
+		AppConfiguration.getValue(.urlHost)
     }
     
     var path: String {

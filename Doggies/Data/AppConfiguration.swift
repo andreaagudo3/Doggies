@@ -3,7 +3,7 @@ import Foundation
 final class AppConfiguration {
     enum Keys {
         enum Plist: String {
-            case apiBaseURL = "ApiBaseURL"
+            case urlHost = "URL_HOST"
         }
     }
     

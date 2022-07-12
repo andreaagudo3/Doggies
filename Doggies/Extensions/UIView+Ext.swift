@@ -87,7 +87,7 @@ extension UIView {
         }
     }
     
-    func loadViewFromNib(nibName: String? = "\(String(describing: self))") {
+	func loadViewFromNib(nibName: String? = "\(String(describing: UIView.self))") {
         guard let nibName = nibName else { return }
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: nibName, bundle: bundle)
