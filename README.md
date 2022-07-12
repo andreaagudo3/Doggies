@@ -39,7 +39,6 @@ No template was used on this project.
 ### Must
 - Add tests
 - Create DTO objects and map them toDomain().
-- Create DIContainers to handle better dependency injection.
 
 # Recommendations
 - Run the app on iOS 14 or above to see the breeds list with Swift UI. Run it under iOS 14 and see a better design with UIKit.

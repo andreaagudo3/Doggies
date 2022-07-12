@@ -265,21 +265,6 @@
 			path = README_FILES;
 			sourceTree = "<group>";
 		};
-		197993612827E380003BE96C /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				197993622827E389003BE96C /* UseCases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		197993622827E389003BE96C /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UseCases;
-			sourceTree = "<group>";
-		};
 		197993632827F6D8003BE96C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,7 +350,6 @@
 		19AE1F672823C54000B69DC1 /* DoggiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				197993612827E380003BE96C /* Domain */,
 				19AE1F682823C54000B69DC1 /* DoggiesTests.swift */,
 			);
 			path = DoggiesTests;
@@ -385,7 +369,6 @@
 			children = (
 				19AE204B2823E94000B69DC1 /* Coordinators */,
 				19AE204F2823E94000B69DC1 /* Scenes */,
-				19AE205A2823E94000B69DC1 /* Components */,
 				1979936D28291537003BE96C /* Utils */,
 				19AE20A52823E94100B69DC1 /* LaunchScreen.storyboard */,
 			);
@@ -430,13 +413,6 @@
 				19AE20562823E94000B69DC1 /* BreedCell.xib */,
 			);
 			path = BookingCell;
-			sourceTree = "<group>";
-		};
-		19AE205A2823E94000B69DC1 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		19AE206F2823E94000B69DC1 /* Data */ = {
@@ -1022,6 +998,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_SCHEME_NAME = "";
 				DEVELOPMENT_TEAM = MMHQA694HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Doggies/Info.plist;
@@ -1051,6 +1028,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_SCHEME_NAME = "";
 				DEVELOPMENT_TEAM = MMHQA694HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Doggies/Info.plist;
