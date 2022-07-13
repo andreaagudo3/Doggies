@@ -20,7 +20,7 @@ struct BreedsListView: View {
 						}
 					}
 				})
-				.horizontalPadding(16)
+				.horizontalPadding(8)
 				.verticalPadding(16)
 			}
         }
@@ -35,7 +35,7 @@ extension BreedsListView {
 		
 		var body: some View {
 			ZStack(alignment: .leading, content: {
-				RoundedRectangle(cornerRadius: 16)
+				RoundedRectangle(cornerRadius: ViewConstants.cornerRadius)
 					.foregroundColor(Colors.lightBg.asColor())
 				VStack(alignment: .leading, spacing: 35, content: {
 					Text(title)
