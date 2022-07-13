@@ -6,22 +6,47 @@ extension BreedsListItemViewModel: Identifiable { }
 struct BreedsListView: View {
     @ObservedObject var viewModelWrapper: BreedsListViewModelWrapper
     
-    var body: some View {
-        ZStack {
-            List(viewModelWrapper.items) { item in
-                Button(action: {
-                    self.viewModelWrapper.viewModel?.didSelect(item: item)
-                }) {
-                    Text(item.name.capitalizedFirst())
-                        .font(.body)
-                        .foregroundColor(Color(Colors.greyPrimary))
-                }
-            }
-            .listStyle(PlainListStyle())
+	var body: some View {
+		ZStack {
+			UIColor.systemBackground.asColor().ignoresSafeArea()
+			
+			ScrollView(.vertical) {
+				VStack(alignment: .leading, spacing: 8, content: {
+					ForEach(viewModelWrapper.items) { item in
+						Button(action: {
+							self.viewModelWrapper.viewModel?.didSelect(item: item)
+						}) {
+							Row(title: item.name.capitalizedFirst())
+						}
+					}
+				})
+				.horizontalPadding(16)
+				.verticalPadding(16)
+			}
         }
-        
-        .navigationBarTitle(Text(self.viewModelWrapper.viewModel?.title ?? ""), displayMode: .large)
+		.navigationBarTitle(Text(self.viewModelWrapper.viewModel?.title ?? ""), displayMode: .large)
+		
     }
+}
+
+extension BreedsListView {
+	struct Row: View {
+		let title: String
+		
+		var body: some View {
+			ZStack(alignment: .leading, content: {
+				RoundedRectangle(cornerRadius: 16)
+					.foregroundColor(Colors.lightBg.asColor())
+				VStack(alignment: .leading, spacing: 35, content: {
+					Text(title)
+						.font(.body)
+						.foregroundColor(Colors.greyPrimary.asColor())
+				})
+				.horizontalPadding(16)
+				.verticalPadding(20)
+			})
+		}
+	}
 }
 
 final class BreedsListViewModelWrapper: ObservableObject {
@@ -37,7 +62,12 @@ final class BreedsListViewModelWrapper: ObservableObject {
 #if DEBUG
 struct BreedsListView_Previews: PreviewProvider {
     static var previews: some View {
-        BreedsListView(viewModelWrapper: previewViewModelWrapper)
+		Group {
+			BreedsListView(viewModelWrapper: previewViewModelWrapper)
+				.preferredColorScheme(.light)
+			BreedsListView(viewModelWrapper: previewViewModelWrapper)
+				.preferredColorScheme(.dark)
+		}
     }
     
     static var previewViewModelWrapper: BreedsListViewModelWrapper = {
