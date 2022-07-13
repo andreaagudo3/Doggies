@@ -68,6 +68,8 @@
 		19AE20FA2823E94100B69DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20B82823E94100B69DC1 /* AppDelegate.swift */; };
 		19AE20FB2823E94100B69DC1 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20B92823E94100B69DC1 /* Application.swift */; };
 		19AE20FD2823E9FB00B69DC1 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE20FC2823E9FB00B69DC1 /* Breed.swift */; };
+		19B4059A287EA5E4000CE2F7 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B40599287EA5E4000CE2F7 /* View+Ext.swift */; };
+		19B4059C287EA888000CE2F7 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B4059B287EA888000CE2F7 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +156,8 @@
 		19AE20B82823E94100B69DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19AE20B92823E94100B69DC1 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		19AE20FC2823E9FB00B69DC1 /* Breed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		19B40599287EA5E4000CE2F7 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		19B4059B287EA888000CE2F7 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,7 +429,6 @@
 			isa = PBXGroup;
 			children = (
 				193C07B628253635002F621C /* FlowLayout */,
-				19AE21002823F81000B69DC1 /* List */,
 				193C07BE28255E77002F621C /* ImageManager.swift */,
 				19AE207A2823E94000B69DC1 /* Localized.swift */,
 				19AE207B2823E94000B69DC1 /* Reusable.swift */,
@@ -441,6 +444,8 @@
 				19AE20802823E94000B69DC1 /* UIStoryboard+Ext.swift */,
 				19AE20812823E94000B69DC1 /* UIView+Ext.swift */,
 				193C079A28240E09002F621C /* String+Ext.swift */,
+				19B40599287EA5E4000CE2F7 /* View+Ext.swift */,
+				19B4059B287EA888000CE2F7 /* UIColor+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -549,13 +554,6 @@
 				193C079C282417F6002F621C /* AppAppearance.swift */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		19AE21002823F81000B69DC1 /* List */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -723,6 +721,7 @@
 				19AE20BB2823E94100B69DC1 /* CoordinatorProtocol.swift in Sources */,
 				19AE20D62823E94100B69DC1 /* DebugPrint.swift in Sources */,
 				19AE20D02823E94100B69DC1 /* BreedRequest.swift in Sources */,
+				19B4059A287EA5E4000CE2F7 /* View+Ext.swift in Sources */,
 				193C07B02825176D002F621C /* BreedDetailVC.swift in Sources */,
 				1979935628266CBA003BE96C /* LoadScene.swift in Sources */,
 				1979936A2827F885003BE96C /* BreedsListItemViewModel.swift in Sources */,
@@ -743,6 +742,7 @@
 				193C07A728242166002F621C /* BreedDetailContract.swift in Sources */,
 				19AE20FD2823E9FB00B69DC1 /* Breed.swift in Sources */,
 				19AE20D32823E94100B69DC1 /* DefaultBreedsListRepository.swift in Sources */,
+				19B4059C287EA888000CE2F7 /* UIColor+Ext.swift in Sources */,
 				1979935928266EAC003BE96C /* UIApplication+Extension.swift in Sources */,
 				19AE20BD2823E94100B69DC1 /* BreedsListConfigurator.swift in Sources */,
 				19AE20DF2823E94100B69DC1 /* ApiResponse.swift in Sources */,
